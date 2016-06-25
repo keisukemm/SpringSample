@@ -9,7 +9,12 @@ public class HelloController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		return "Hello World! comment by github";
+		return "Hello World! comment by github + local";
+	}
+
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	public String hello(){
+		return "hello";
 	}
 
 }
