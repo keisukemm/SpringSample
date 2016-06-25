@@ -9,7 +9,7 @@ public class HelloController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		return "Hello World! comment grom SourceTree.";
+		return "Hello World!";
 	}
 
 }
