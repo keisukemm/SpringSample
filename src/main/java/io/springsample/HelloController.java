@@ -9,8 +9,7 @@ public class HelloController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		return "Hello World!<br>"
-				+ "Welcome to SpringBoot Application.";
+		return "Hello World!";
 	}
 
 }
