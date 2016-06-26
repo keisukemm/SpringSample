@@ -8,8 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>SpringSample</name>
-	<description>SampleSpringApplication</description>
+	<name>demo</name>
+	<description>My Sample Spring Application for War</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
